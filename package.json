@@ -25,7 +25,8 @@
     "url": "https://github.com/vquelque/validate-ethereum-address"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
