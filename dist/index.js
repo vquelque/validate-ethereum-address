@@ -9,7 +9,6 @@ const checkAddressChecksum = (data) => {
         return false;
     const address = data.slice(2);
     const addressHash = (0, utils_2.bytesToHex)((0, sha3_1.keccak_256)(address.toLowerCase()));
-    console.log(addressHash);
     for (let i = 0; i < 40; i += 1) {
         if ((parseInt(addressHash[i], 16) > 7 &&
             address[i].toUpperCase() !== address[i]) ||

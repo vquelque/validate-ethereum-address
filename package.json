@@ -1,6 +1,6 @@
 {
   "name": "validate-ethereum-address",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vquelque/validate-ethereum-address"
+    "url": "git+https://github.com/vquelque/validate-ethereum-address.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
