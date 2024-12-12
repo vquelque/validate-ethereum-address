@@ -6,7 +6,6 @@ export const checkAddressChecksum = (data: string): boolean => {
   if (!/^(0x)?[0-9a-f]{40}$/i.test(data)) return false;
   const address = data.slice(2);
   const addressHash = toHex(keccak_256(address.toLowerCase()));
-  console.log(addressHash);
 
   for (let i = 0; i < 40; i += 1) {
     if (
